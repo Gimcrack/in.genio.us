@@ -81,16 +81,16 @@
   </div>
 
 
-  <section id="video-bg">
-    <div class="video-header">
+  <div id="hero" class="hero-bg01 valign-wrapper">
+    <div class="header">
       <div class="container">
-        <div class="hero-text">
+        <div class="hero-text valign">
           <div class="row">
             <h2 class="light white-text">The</h2>
             <div class="dark-giant-title">
-              <h1 class="white-text text-lighten-2"><span class="text-highlight">Fullwidth</span></h1>
+              <h1 class="white-text text-lighten-2"><span class="text-highlight">Fullscreen</span></h1>
             </div>
-            <h6 class="light black-text"><span>Background Video</span></h6>
+            <h6 class="light black-text"><span>Hero Image</span></h6>
           </div>
           <div class="row">
             <a href="#about" id="download-button" class="btn-large waves-effect waves-light red lighten-1" target="_blank">Get Started</a>
@@ -98,55 +98,52 @@
         </div>
       </div>
     </div>
-    <video id="my-video" class="video" autoplay muted loop>
-      <source src="assets/custom/video/christmas_snow.mp4" type="video/mp4" />
-      <source src="assets/custom/video/christmas_snow.ogv" type="video/ogv" />
-      <source src="assets/custom/video/christmas_snow.webm" type="video/webm" />
-    </video>
-  </section>
+    <!--<div class="parallax"><img src="assets/custom/images/furn01.jpg" alt="Unsplashed background img 1"></div>-->
+  </div>
+
 
 
    <!-- Features Block -->
-   <!--<section id="features" class="t-block">-->
-     <!--<div class="row no-pad-bot pt-section" data-name="Features" id="ptsection-two">-->
-       <!--<div class="col s12 m6 l3 pink">-->
-         <!--<div class="content">-->
-           <!--<i class="material-icons">grade</i>-->
-           <!--<h5 class="white-text">Material Design</h5>-->
-           <!--<p class="white-text light">-->
-             <!--is a design language that combines the classic principles of successful design along with innovation and technology.-->
-           <!--</p>-->
-         <!--</div>-->
-       <!--</div>-->
-       <!--<div class="col s12 m6 l3 deep-purple">-->
-         <!--<div class="content">-->
-           <!--<i class="material-icons">settings</i>-->
-           <!--<h5 class="white-text">Metaphor</h5>-->
-           <!--<p class="white-text light">-->
-             <!--The metaphor of material defines the relationship between space and motion. The idea is that the technology is inspired...-->
-           <!--</p>-->
-         <!--</div>-->
-       <!--</div>-->
-       <!--<div class="col s12 m6 l3 red">-->
-         <!--<div class="content">-->
-           <!--<i class="material-icons">visibility</i>-->
-           <!--<h5 class="white-text">Intentional</h5>-->
-           <!--<p class="white-text light">-->
-             <!--Elements and components such as grids, typography, color, and imagery are not only visually pleasing, but also create a sense...-->
-           <!--</p>-->
-         <!--</div>-->
-       <!--</div>-->
-       <!--<div class="col s12 m6 l3 orange">-->
-         <!--<div class="content">-->
-           <!--<i class="material-icons">room</i>-->
-           <!--<h5 class="white-text">Motion</h5>-->
-           <!--<p class="white-text light">-->
-             <!--Motion allows the user to draw a parallel between what they see on the screen and in real life. By providing both feedback...-->
-           <!--</p>-->
-         <!--</div>-->
-       <!--</div>-->
-     <!--</div>-->
-   <!--</section>-->
+   <section id="features" class="t-block">
+     <div class="row no-pad-bot pt-section" data-name="Features" id="ptsection-two">
+       <div class="col s12 m6 l3 pink">
+         <div class="content">
+           <i class="material-icons">grade</i>
+           <h5 class="white-text">Material Design</h5>
+           <p class="white-text light">
+             is a design language that combines the classic principles of successful design along with innovation and technology.
+           </p>
+         </div>
+       </div>
+       <div class="col s12 m6 l3 deep-purple">
+         <div class="content">
+           <i class="material-icons">settings</i>
+           <h5 class="white-text">Metaphor</h5>
+           <p class="white-text light">
+             The metaphor of material defines the relationship between space and motion. The idea is that the technology is inspired...
+           </p>
+         </div>
+       </div>
+       <div class="col s12 m6 l3 red">
+         <div class="content">
+           <i class="material-icons">visibility</i>
+           <h5 class="white-text">Intentional</h5>
+           <p class="white-text light">
+             Elements and components such as grids, typography, color, and imagery are not only visually pleasing, but also create a sense...
+           </p>
+         </div>
+       </div>
+       <div class="col s12 m6 l3 orange">
+         <div class="content">
+           <i class="material-icons">room</i>
+           <h5 class="white-text">Motion</h5>
+           <p class="white-text light">
+             Motion allows the user to draw a parallel between what they see on the screen and in real life. By providing both feedback...
+           </p>
+         </div>
+       </div>
+     </div>
+   </section>
 
    <!-- About Block -->
    <section id="about" class="white">
