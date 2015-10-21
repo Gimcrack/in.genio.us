@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Materializer. The Material Design HTML5 Template</title>
+  <title>Ingenious Data Management</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -44,7 +44,7 @@
     <!-- Main Nav -->
     <nav role="navigation" class="grey lighten-5">
       <div class="nav-wrapper container">
-        <a href="#home" class="brand-logo red-text">Ingenious</a>
+        <a href="#home" class="brand-logo red-text">ingenious</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#home">Home</a></li>
@@ -86,14 +86,14 @@
       <div class="container">
         <div class="hero-text">
           <div class="row">
-            <h2 class="light white-text">The</h2>
+            <h2 class="light white-text">Introducing</h2>
             <div class="dark-giant-title">
-              <h1 class="white-text text-lighten-2"><span class="text-highlight">Fullwidth</span></h1>
+              <h1 class="white-text text-lighten-2"><span class="text-highlight">ingenious</span></h1>
             </div>
-            <h6 class="light black-text"><span>Background Video</span></h6>
+            <h6 class="light black-text"><span>Data Management</span></h6>
           </div>
           <div class="row">
-            <a href="#about" id="download-button" class="btn-large waves-effect waves-light red lighten-1" target="_blank">Get Started</a>
+            <a href="#about" id="download-button" class="btn-large waves-effect waves-light red lighten-1" target="_blank">Learn More</a>
           </div>
         </div>
       </div>
