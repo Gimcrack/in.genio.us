@@ -86,7 +86,7 @@
       <div class="container">
         <div class="hero-text valign">
           <div class="row">
-            <h2 class="light white-text">Introducing</h2>
+            <h2 class="light white-text">Meet</h2>
             <div class="dark-giant-title">
               <h1 class="white-text text-lighten-2"><span class="text-highlight">ingenious</span></h1>
             </div>
