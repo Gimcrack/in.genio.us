@@ -44,7 +44,7 @@
     <!-- Main Nav -->
     <nav role="navigation" class="grey lighten-5">
       <div class="nav-wrapper container">
-        <a href="#home" class="brand-logo red-text">Materializer</a>
+        <a href="#home" class="brand-logo red-text">Ingenious</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#home">Home</a></li>
