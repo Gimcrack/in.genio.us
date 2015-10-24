@@ -22,59 +22,8 @@
 	</div>
 	<!-- /Loader -->
 
-  <header>
-    <!-- Dropdown Structure -->
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="#userwords">Customer's words</a></li>
-      <li><a href="#tutorial">Tutorial</a></li>
-      <li><a href="#details">Details</a></li>
-      <li><a href="#feedback">Feedback</a></li>
-      <li><a href="#slider">Slider</a></li>
-      <li><a href="#team">Team</a></li>
-      <li class="divider"></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-    </ul>
-
-    <ul id="dropdown2" class="dropdown-content">
-      <li><a href="index01.html">Fullscreen Slider</a></li>
-      <li><a href="index02.html">Fullscreen Hero Image</a></li>
-      <li><a href="index03.html">Hero Background Video</a></li>
-    </ul>
-
-    <!-- Main Nav -->
-    <nav role="navigation" class="grey lighten-5">
-      <div class="nav-wrapper container">
-        <a href="#home" class="brand-logo red-text">ingenious</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#home">Home</a></li>
-          <!-- Dropdown Trigger -->
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Layouts<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About</a></li>
-          <!-- Dropdown Trigger -->
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Sections<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="http://crtv.mk/g0GhU" target="_blank">Buy this template</a></li>
-        </ul>
-
-        <!-- Mobile Menu -->
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#userwords">Customer's words</a></li>
-          <li><a href="#tutorial">Tutorial</a></li>
-          <li><a href="#details">Details</a></li>
-          <li><a href="#feedback">Feedback</a></li>
-          <li><a href="#slider">Slider</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="http://crtv.mk/g0GhU" target="_blank">Buy this template</a></li>
-        </ul>
-      </div>
-    </nav>
-
-  </header>
+  <!-- Nav Header -->
+  <?php include('views/partials/header.blade.php'); ?>
 
   <div id="home">
     <div class="pt-section" data-name="Home" id="ptsection-one"></div>
@@ -86,7 +35,7 @@
       <div class="container">
         <div class="hero-text valign">
           <div class="row">
-            <h2 class="light white-text">Meet</h2>
+            <!-- <h2 class="light white-text">Meet</h2> -->
             <div class="dark-giant-title">
               <h1 class="white-text text-lighten-2"><span class="text-highlight">ingenious</span></h1>
             </div>
@@ -109,36 +58,36 @@
        <div class="col s12 m6 l3 pink">
          <div class="content">
            <i class="material-icons">grade</i>
-           <h5 class="white-text">Material Design</h5>
+           <h5 class="white-text">Revolutionary</h5>
            <p class="white-text light">
-             is a design language that combines the classic principles of successful design along with innovation and technology.
+             Ingenious DMP is changing the way that SMBs think about managing their data.
            </p>
          </div>
        </div>
        <div class="col s12 m6 l3 deep-purple">
          <div class="content">
            <i class="material-icons">settings</i>
-           <h5 class="white-text">Metaphor</h5>
+           <h5 class="white-text">Stable</h5>
            <p class="white-text light">
-             The metaphor of material defines the relationship between space and motion. The idea is that the technology is inspired...
+             Built on the award-winning Laravel framework.
            </p>
          </div>
        </div>
        <div class="col s12 m6 l3 red">
          <div class="content">
            <i class="material-icons">visibility</i>
-           <h5 class="white-text">Intentional</h5>
+           <h5 class="white-text">Extensible</h5>
            <p class="white-text light">
-             Elements and components such as grids, typography, color, and imagery are not only visually pleasing, but also create a sense...
+            Highly customizable to meet your exact business needs.
            </p>
          </div>
        </div>
        <div class="col s12 m6 l3 orange">
          <div class="content">
            <i class="material-icons">room</i>
-           <h5 class="white-text">Motion</h5>
+           <h5 class="white-text">Open Source</h5>
            <p class="white-text light">
-             Motion allows the user to draw a parallel between what they see on the screen and in real life. By providing both feedback...
+             Ingenious DMP is completely free.
            </p>
          </div>
        </div>
@@ -156,7 +105,7 @@
                <h2 class="center red-text"><i class="material-icons">language</i></h2>
                <h4 class="center light">Design</h4>
                <p class="center light">
-                 Curabitur eu nulla eget ligula laoreet auctor. Integer eu ultricies justo. Integer tortor nunc, tempor rutrum elementum vel, porttitor ac leo.
+                 
                </p>
              </div>
              <div class="divider4"></div>
@@ -178,7 +127,7 @@
                <h2 class="center red-text"><i class="material-icons">track_changes</i></h2>
                <h4 class="center light">Feedback</h4>
                <p class="center light">
-                 Curabitur eu nulla eget ligula laoreet auctor. Integer eu ultricies justo. Integer tortor nunc, tempor rutrum elementum vel, porttitor ac leo.
+
                </p>
              </div>
              <div class="divider4"></div>
@@ -186,7 +135,8 @@
          </div>
 
          <div class="row center">
-           <a href="http://crtv.mk/g0GhU" id="download-button" class="btn-large waves-effect waves-light red lighten-1" target="_blank">Buy The Materializer Template</a>
+           <a href="http://crtv.mk/g0GhU" id="download-button" class="btn-large waves-effect waves-light red lighten-1" target="_blank">
+             Request A Quote</a>
          </div>
 
        </div>
